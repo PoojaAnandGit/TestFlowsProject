@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: TestFlowsProject
+  gitServerName: testGitFeaturesP
+  gitUrl: https://github.com/PoojaAnandGit/TestFlowsProject
+  gitUsername: PoojaAnandGit
+  gitBranch: main
