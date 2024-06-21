@@ -8,6 +8,7 @@ packages:
   gitUsername: PoojaAnandGit
   gitBranch: main
 - name: EdgePkg1
+  version: "1.0"
   gitServerName: testInternal
   gitUrl: https://github.webmethods.io/hasv
   gitUsername: poan
@@ -21,3 +22,13 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.804
+- serviceName: project.testflows.integrations:testtree
+  packages:
+  - name: TestFlowsProject
+    version: "1.0"
+  - name: EdgePkg1
+    version: "1.0"
+- serviceName: pub.date:getCurrentDateString
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.927
